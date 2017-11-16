@@ -1,0 +1,72 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Simple Quiz</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta http-equiv="X-U-Compatible" content="IE=edge">
+            <link rel="stylesheet" href="../dist/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../dist/css/bootstrap.css">
+            <link rel="stylesheet" href="../dist/css/app.css">
+            <link rel="stylesheet" href="stylus/main.styl">
+            <script src="../dist/js/html5shiv.min.js"></script>
+            <script src="../dist/js/respond.min.js"></script>
+        </head>
+        <body>
+            <div class="container">
+                <header>
+                    <h1>Simple Java Script Quiz</h1>
+                    <p>Test your konwledge in <strong>Java Script Fundamentals</strong></p>
+                </header>
+                <section>
+                    <div id="results"></div>
+                    <form name="quizForm" onsubmit="return submitAnswers()">
+                        <h3>1. In which HTML do we put in javascript code?</h3>
+                        <input name="q1" type="radio" value="a" id="q1a">a. &lt; js &gt;<br>
+                        <input name="q1" type="radio" value="b" id="q1b">b. &lt; script&gt;<br>
+                        <input name="q1" type="radio" value="c" id="q1c">c. &lt; link &gt;<br>
+                        <input name="q1" type="radio" value="d" id="q1d">d. &lt; body &gt;<br>
+                        
+                        <h3>2. Which HTML attributes is used to refrence an external java script?</h3>
+                        <input name="q2" type="radio" value="a" id="q2a">a.  src<br>
+                        <input name="q2" type="radio" value="b" id="q2b">b.  rel<br>
+                        <input name="q2" type="radio" value="c" id="q2c">c.  type<br>
+                        <input name="q2" type="radio" value="d" id="q2d">d.  href<br>
+                        
+                        
+                        <h3>3. How would you write "hello" in alert box?</h3>
+                        <input name="q3" type="radio" value="a" id="q1a">a.  msg"hello"<br>
+                        <input name="q3" type="radio" value="b" id="q2b">b.  alertBox"hello"<br>
+                        <input name="q3" type="radio" value="c" id="q3c">c.  document.write"hello"<br>
+                        <input name="q3" type="radio" value="d" id="q4d">d.  alert"hello"<br>
+                        
+                        
+                        <h3>4. Javascript is dirctly related to java?</h3>
+                        <input name="q4" type="radio" value="a" id="q4a">a.  true<br>
+                        <input name="q4" type="radio" value="b" id="q4b">b.  false<br>
+                        
+                        
+                        
+                        <h3>5. A variable in javascript must start with which special char?</h3>
+                        <input name="q5" type="radio" value="a" id="q5a">a. @<br>
+                        <input name="q5" type="radio" value="b" id="q5b">b. $<br>
+                        <input name="q5" type="radio" value="c" id="q5c">c. #<br>
+                        <input name="q5" type="radio" value="d" id="q5d">d. no char<br>
+                        
+                        
+                        <br><br>
+                        <input type="submit" value="submit Answers">
+                    </form>
+                </section>
+                
+                <footer>
+                    <p>copyRight &copy;  2018,All Rights Reserved</p>
+                </footer>
+            </div>
+            
+                
+            <script src="../dist/js/jquery-1.11.1.min.js"></script>
+            <script src="../dist/js/bootstrap.min.js"></script>
+            <script src="../dist/js/main.js"></script>
+        </body>
+    </html>
